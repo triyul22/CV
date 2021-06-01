@@ -36,12 +36,16 @@ img {
 .info {
     white-space: nowrap;
 }
-.section_container {
+.section_container_eng {
+    visibility: hidden;
+}
+.section_container_eng, .section_container_rus {
     display: flex;
     border-bottom: 1px solid goldenrod;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .topic {
     margin: 0 20px 0 0;
     color: goldenrod;
